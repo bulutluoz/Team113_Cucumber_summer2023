@@ -4,7 +4,7 @@ Feature: US1003 BackGround kullanarak tekrarlardan kurtulur
     Given Kullanici amazon anasayfaya gider
 
   Scenario: TC05 Amazon Nutella Testi
-    
+
     When Nutella icin arama yapar
     Then Arama sonuclarinin Nutella icerdigini test eder
     And Sayfayi kapatir
