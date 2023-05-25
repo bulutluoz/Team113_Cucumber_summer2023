@@ -21,5 +21,5 @@ Feature: US1004 Steplerde parametre kullanilabilmeli
 
     Given Kullanici "amazonUrl" anasayfaya gider
     When "Samsung" icin arama yapar
-    Then Arama sonuclarinin "Samsung\"" icerdigini test eder
+    Then Arama sonuclarinin "Samsung" icerdigini test eder
     And Sayfayi kapatir
