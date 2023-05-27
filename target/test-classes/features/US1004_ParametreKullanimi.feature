@@ -13,13 +13,13 @@ Feature: US1004 Steplerde parametre kullanilabilmeli
 
     Given Kullanici "amazonUrl" anasayfaya gider
     When "Java" icin arama yapar
-    Then Arama sonuclarinin "Phyton" icerdigini test eder
+    Then Arama sonuclarinin "Java" icerdigini test eder
     And Sayfayi kapatir
 
-  @ss
+
   Scenario: TC10 Amazon Samsung Testi
 
     Given Kullanici "amazonUrl" anasayfaya gider
     When "Samsung" icin arama yapar
-    Then Arama sonuclarinin "Apple" icerdigini test eder
+    Then Arama sonuclarinin "Samsung" icerdigini test eder
     And Sayfayi kapatir
