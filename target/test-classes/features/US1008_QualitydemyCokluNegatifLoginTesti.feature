@@ -9,6 +9,7 @@ Feature: US1008 Toplu kullanici listesi ile negatif login testi
   And password olarak "<password>" girer
   When login butonuna basar
   Then giris yapilamadigini test eder
+  And Sayfayi kapatir
 
   Examples:
     | email       | password  |
