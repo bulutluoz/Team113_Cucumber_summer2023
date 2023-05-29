@@ -11,3 +11,5 @@ Feature:US1009 Kullanici Automation Exercise sayfasinda yeni kullanici olusturur
     And user kisisel bilgilerini ve iletisim bilgilerini girer
     And user Create Account butonuna basar
     Then hesap olustugunu test edin
+    And Sayfayi kapatir
+

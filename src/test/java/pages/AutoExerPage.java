@@ -26,4 +26,10 @@ public class AutoExerPage {
     @FindBy(xpath = "//*[@id='id_gender1']")
     public WebElement mrButonu;
 
+    @FindBy(xpath = "//button[@data-qa='create-account']")
+    public WebElement createAccountButonu;
+
+    @FindBy(xpath = "//b[text()='Account Created!']")
+    public WebElement accountCreatedYaziElementi;
+
 }
