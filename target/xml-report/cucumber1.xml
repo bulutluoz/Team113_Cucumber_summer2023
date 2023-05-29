@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Cucumber" time="9.384" tests="2" skipped="0" failures="0" errors="0">
-<testcase classname="US1002 Amazon Title Testi" name="TC04 Kullanici amazon sayfasinin title'nin dogru oldugunu kontrol eder" time="3.836">
+<testsuite name="Cucumber" time="12.188" tests="2" skipped="0" failures="0" errors="0">
+<testcase classname="US1002 Amazon Title Testi" name="TC04 Kullanici amazon sayfasinin title'nin dogru oldugunu kontrol eder" time="5.263">
 <system-out><![CDATA[
 Given Kullanici amazon anasayfaya gider.....................................passed
 Then Title'in Amazon icerdigini test eder...................................passed
 And Sayfayi kapatir.........................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="US1003 BackGround kullanarak tekrarlardan kurtulur" name="TC06 Amazon Java Testi" time="5.469">
+<testcase classname="US1003 BackGround kullanarak tekrarlardan kurtulur" name="TC06 Amazon Java Testi" time="6.83">
 <system-out><![CDATA[
 Given Kullanici amazon anasayfaya gider.....................................passed
 When Java icin arama yapar..................................................passed
