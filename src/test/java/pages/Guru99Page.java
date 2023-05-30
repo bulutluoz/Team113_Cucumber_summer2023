@@ -21,4 +21,7 @@ public class Guru99Page {
     @FindBy(xpath = "//iframe[@class='faktor-iframe-wrapper']")
     public WebElement cookiesIFrame;
 
+    @FindBy(xpath = "//tbody/tr")
+    public List<WebElement> satirlarListesi;
+
 }

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Cucumber" time="6.68" tests="1" skipped="0" failures="0" errors="0">
-<testcase classname="US1011 Kullanici web tablosundaki sirketleri yazdirir" name="TC17 Kullanici listeyi yazdirir ve aranan sirketin varligini test eder" time="6.596">
+<testsuite name="Cucumber" time="8.407" tests="1" skipped="0" failures="0" errors="0">
+<testcase classname="US1012 Kullanici istedigi firmanin onceki gunki kapanis degerini okur" name="TC18 DCB'nin onceki kapanis degerini test eder" time="8.319">
 <system-out><![CDATA[
 Given Kullanici "guruUrl" anasayfaya gider..................................passed
-Then 2 saniye bekler........................................................passed
-And guru99 sayfasinda Cookies kabul eder....................................passed
-Then Company listesini consola yazdirir.....................................passed
-And listede "DCB Bank" oldugunu test eder...................................passed
+Then guru99 sayfasinda Cookies kabul eder...................................passed
+And "DCB Bank" Prev.Close degerini yazdirir.................................passed
+Then Prev.Close degerinin "123,8" oldugunu test eder........................passed
+And 3 saniye bekler.........................................................passed
 Then tum sayfa Screenshot alir..............................................passed
 And Sayfayi kapatir.........................................................passed
 ]]></system-out>
