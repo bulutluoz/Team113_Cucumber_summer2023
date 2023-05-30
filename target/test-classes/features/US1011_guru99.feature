@@ -7,4 +7,6 @@ Feature: US1011 Kullanici web tablosundaki sirketleri yazdirir
     Then 2 saniye bekler
     And guru99 sayfasinda Cookies kabul eder
     Then Company listesini consola yazdirir
-    And DCB Bank'in listede oldugunu test eder
+    And  listede "DCB Bank" oldugunu test eder
+    Then tum sayfa Screenshot alir
+    And Sayfayi kapatir

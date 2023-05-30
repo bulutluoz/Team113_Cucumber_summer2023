@@ -1,52 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Cucumber" time="21.848" tests="1" skipped="0" failures="1" errors="0">
-<testcase classname="US1011 Kullanici web tablosundaki sirketleri yazdirir" name="TC17 Kullanici listeyi yazdirir ve aranan sirketin varligini test eder" time="21.751">
-<failure type="org.openqa.selenium.NoSuchElementException" message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;(//*[@*='mat-button-wrapper'])[4]&quot;}
-  (Session info: chrome=113.0.5672.126)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.9.1', revision: 'eb2032df7f'
-System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.3.1', java.version: '11.0.15.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [cce70b51b357249af58ba284afb4e4fc, findElement {using=xpath, value=(//*[@*='mat-button-wrapper'])[4]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.126, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: /var/folders/k5/tn4cs92s1h3...}, goog:chromeOptions: {debuggerAddress: localhost:58637}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:58637/devtoo..., se:cdpVersion: 113.0.5672.126, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: cce70b51b357249af58ba284afb4e4fc">
-<![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"(//*[@*='mat-button-wrapper'])[4]"}
-  (Session info: chrome=113.0.5672.126)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.9.1', revision: 'eb2032df7f'
-System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.3.1', java.version: '11.0.15.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [cce70b51b357249af58ba284afb4e4fc, findElement {using=xpath, value=(//*[@*='mat-button-wrapper'])[4]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.126, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: /var/folders/k5/tn4cs92s1h3...}, goog:chromeOptions: {debuggerAddress: localhost:58637}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:58637/devtoo..., se:cdpVersion: 113.0.5672.126, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: cce70b51b357249af58ba284afb4e4fc
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
-	at com.sun.proxy.$Proxy23.click(Unknown Source)
-	at stepdefinitions.GuruStepdefinitions.guru99_sayfasinda_cookies_kabul_eder(GuruStepdefinitions.java:15)
-	at ✽.guru99 sayfasinda Cookies kabul eder(file:///Users/ahmetbulutluoz/IdeaProjects/com.Team113_Cucumber/src/test/resources/features/US1011_guru99.feature:8)
-]]>
-</failure>
+<testsuite name="Cucumber" time="6.68" tests="1" skipped="0" failures="0" errors="0">
+<testcase classname="US1011 Kullanici web tablosundaki sirketleri yazdirir" name="TC17 Kullanici listeyi yazdirir ve aranan sirketin varligini test eder" time="6.596">
 <system-out><![CDATA[
 Given Kullanici "guruUrl" anasayfaya gider..................................passed
 Then 2 saniye bekler........................................................passed
-And guru99 sayfasinda Cookies kabul eder....................................failed
-Then Company listesini consola yazdirir.....................................skipped
-And DCB Bank'in listede oldugunu test eder..................................skipped
+And guru99 sayfasinda Cookies kabul eder....................................passed
+Then Company listesini consola yazdirir.....................................passed
+And listede "DCB Bank" oldugunu test eder...................................passed
+Then tum sayfa Screenshot alir..............................................passed
+And Sayfayi kapatir.........................................................passed
 ]]></system-out>
 </testcase>
 </testsuite>

@@ -18,4 +18,7 @@ public class Guru99Page {
     @FindBy(xpath = "//tbody/tr/td[1]")
     public List<WebElement> sirketElementList;
 
+    @FindBy(xpath = "//iframe[@class='faktor-iframe-wrapper']")
+    public WebElement cookiesIFrame;
+
 }
