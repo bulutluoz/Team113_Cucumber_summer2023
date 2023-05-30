@@ -1,6 +1,6 @@
 Feature:US1009 Kullanici Automation Exercise sayfasinda yeni kullanici olusturur
 
-  @ae
+
   Scenario: TC15 Kullanici kendi bilgileriyle yeni kullanici olusturabilmeli
     
     Given Kullanici "aeUrl" anasayfaya gider
